@@ -1,0 +1,10 @@
+# Node.js
+node_modules/
+
+# VuePress
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+
+# macOS
+.DS_Store

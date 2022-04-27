@@ -1,0 +1,19 @@
+{
+    "typescript": {},
+    "json": {
+        "indentWidth": 4
+    },
+    "includes": [
+        "**/*.{ts,tsx,js,jsx,cjs,mjs,json}"
+    ],
+    "excludes": [
+        "**/node_modules",
+        "**/*-lock.json",
+
+        "**/.vuepress"
+    ],
+    "plugins": [
+        "https://plugins.dprint.dev/typescript-0.68.0.wasm",
+        "https://plugins.dprint.dev/json-0.15.1.wasm"
+    ]
+}
